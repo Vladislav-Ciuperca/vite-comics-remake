@@ -3,57 +3,7 @@
 export default {
     data() {
         return {
-            content: {
-                "element_1": {
-                    'pos_id':'left',
-                    'title': "DC COMICS",
-                    'values': [
-                        "Characters",
-                        "Comics",
-                        "Movies",
-                        "TV",
-                        "Games",
-                        "Videos",
-                        "News",
-                    ],
-                },
-                "element_2": {
-                    'pos_id':'left',
-                    'title': "SHOP",
-                    'values': [
-                        "Shop DC",
-                        "Shop DC collectibles",
-                    ],
-                },
-                "element_3": {
-                    'pos_id':'mid',
-                    'title': "DC ",
-                    'values': [
-                        "Terms Of Use",
-                        "Privacy Policy(New)",
-                        "Ad Choices",
-                        "Advertising",
-                        "Jobs",
-                        "Subscriptions",
-                        "talent Workshop",
-                        "CPSC Certificates",
-                        "Ratings",
-                        "Shop Help",
-                        "Contact Us",
-                    ],
-                },
-                "element_4": {
-                    'pos_id':'right',
-                    'title': "SITES ",
-                    'values': [
-                        "DC",
-                        "MAD magazines",
-                        "DC Kids",
-                        "DC Universe",
-                        "DC Power visa",
-                    ],
-                },
-            }
+          //placehoplder
         }
     },
     methods: {
