@@ -185,6 +185,7 @@ li{
 }
 
 .sec{
+    /* border: 2px dashed green; */
     padding-right: 4rem;
 }
 
