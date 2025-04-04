@@ -1,9 +1,12 @@
 <script>
-// questo e l'header
+import card from './content-components/ContentCard.vue'
 export default {
-    data() {
-        return {
-            comics: [
+	components: {
+		card,
+	},
+	data() {
+		return {
+			comics: [
 				{
 					thumb: "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
 					price: "$19.99",
@@ -76,15 +79,16 @@ export default {
 					series: "Catwoman",
 					type: "graphic novel",
 				},
-			]
-        }
-    },
-    methods: {
-        // placeholder
-    },
-    mounted() {
-        // placeholder
-    }
+			],
+			prova: "sciaobelo",
+		}
+	},
+	methods: {
+		// placeholder
+	},
+	mounted() {
+		// placeholder
+	}
 }
 
 </script>
@@ -93,9 +97,18 @@ export default {
 
 <!-- ///////////////////////////////////////////// -->
 <template>
-    <div class="container">
-    <h1>=qui content=</h1>
-    </div>
+	<div class="container">
+
+		<div class="row">
+
+			<div v-for="element in comics" class="col-4 d-flex flex-wrap gap-5">
+				<card class="my-3 p-2 w-100"  
+				:price="element.price"
+				:thumb="element.thumb"></card>
+			</div>
+		</div>
+	</div>
+
 </template>
 <!-- ///////////////////////////////////////////// -->
 
